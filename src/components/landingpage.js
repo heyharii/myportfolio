@@ -25,12 +25,12 @@ class Landing extends Component {
 
 
           {/* Github */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+          <a href="https://github.com/udahari" rel="noopener noreferrer" target="_blank">
             <i className="fab fa-github-square" aria-hidden="true" />
           </a>
 
           {/* Dockerimage */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+          <a href="https://hub.docker.com//r/23051995/" rel="noopener noreferrer" target="_blank">
             <i className="fab fa-docker" aria-hidden="true" />
           </a>
 

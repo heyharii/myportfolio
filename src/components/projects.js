@@ -46,7 +46,7 @@ class Projects extends Component {
          </CardText>
          <CardActions border>
            <Button colored><a href="https://github.com/udahari/AppointmentReact">GitHub</a></Button>
-           <Button colored><a href="https://hub.docker.com/r/23051995/calendar_react/">Docker</a> Docker</Button>
+           <Button colored><a href="https://hub.docker.com/r/23051995/calendar_react/">Docker</a></Button>
            <Button colored><a href="https://calreact1.herokuapp.com/">Live Demo</a></Button>
          </CardActions>
          <CardMenu style={{color: '#fff'}}>
@@ -164,9 +164,9 @@ class Projects extends Component {
               My Portfolio website with React.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button colored><a href="https://github.com/udahari/myportfolio">Github</a></Button>
+              <Button colored><a href="https://hub.docker.com/r/23051995/myportfolio_react/">Docker</a> </Button>
+              <Button colored><a href="https://hariportfolio.netlify.com">Live Demo</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
