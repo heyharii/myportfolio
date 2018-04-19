@@ -12,26 +12,26 @@ class Projects extends Component {
 
     if(this.state.activeTab === 0){
       return(
-        <div className="projects-grid">
+      
+          <div className="projects-grid">
          
-          {/* Project 2 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/750/1*1cxvzNwx9AaQkh9gYC4bzw.jpeg) center / cover'}} >MyBnb (NDA Project)</CardTitle>
+             {/* Project 1 */}
+           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#000', height: '176px', background: 'url(https://sdtimes.com/wp-content/uploads/2016/07/0701.sdt-rails.jpg) center / cover'}} >Castcast (LMS)</CardTitle>
             <CardText>
-              Booking management system like Airbnb with Airbnb full function. Tech Stack : Ruby on Rails, Twilio API, Stripe API, Omniauth.
+              Learning management system like udemy with subscriptions. Tech Stack : Laravel, VueJs, Redis, Sidekiq, StripeAPI.
             </CardText>
             <CardActions border>
-              <Button colored>NDA</Button>
-              <Button colored>NDA</Button>
-              <Button colored>NDA</Button>
+              <Button colored><a href="https://github.com/udahari/castcast">Github</a> </Button>
+              <Button colored>OnProcess</Button>
+              <Button colored><a href="castcast.tk">Live Demo</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
-
+          
         </div>
-
 
       )
     } else if(this.state.activeTab === 1) {
@@ -101,22 +101,27 @@ class Projects extends Component {
 
         <div className="projects-grid">
 
-           {/* Project 1 */}
-           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#000', height: '176px', background: 'url(https://sdtimes.com/wp-content/uploads/2016/07/0701.sdt-rails.jpg) center / cover'}} >Castcast (LMS)</CardTitle>
+          <div className="projects-grid">
+         
+          {/* Project 2 */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/750/1*1cxvzNwx9AaQkh9gYC4bzw.jpeg) center / cover'}} >MyBnb (NDA Project)</CardTitle>
             <CardText>
-              Learning management system like udemy with subscriptions. Tech Stack : Laravel, VueJs, Redis, Sidekiq, StripeAPI.
+              Booking management system like Airbnb with Airbnb full function. Tech Stack : Ruby on Rails, Twilio API, Stripe API, Omniauth.
             </CardText>
             <CardActions border>
-              <Button colored><a href="https://github.com/udahari/castcast">Github</a> </Button>
-              <Button colored>OnProcess</Button>
-              <Button colored><a href="castcast.tk">Live Demo</a></Button>
+              <Button colored>NDA</Button>
+              <Button colored>NDA</Button>
+              <Button colored>NDA</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
-          
+
+        </div>
+
+        
           {/* Project 3 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#000', height: '176px', background: 'url(https://sdtimes.com/wp-content/uploads/2016/07/0701.sdt-rails.jpg) center / cover'}} >Forum</CardTitle>
