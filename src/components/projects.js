@@ -17,7 +17,7 @@ class Projects extends Component {
          
              {/* Project 1 */}
            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#000', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/750/1*1cxvzNwx9AaQkh9gYC4bzw.jpeg) center / cover'}} >Castcast (LMS)</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/750/1*1cxvzNwx9AaQkh9gYC4bzw.jpeg) center / cover'}} >Castcast (LMS)</CardTitle>
             <CardText>
               Learning management system like udemy with subscriptions. Tech Stack : Laravel, VueJs, Redis, Sidekiq, StripeAPI.
             </CardText>
@@ -105,7 +105,7 @@ class Projects extends Component {
          
           {/* Project 2 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://sdtimes.com/wp-content/uploads/2016/07/0701.sdt-rails.jpg) center / cover'}} >MyBnb (NDA Project)</CardTitle>
+            <CardTitle style={{color: '#000', height: '176px', background: 'url(https://sdtimes.com/wp-content/uploads/2016/07/0701.sdt-rails.jpg) center / cover'}} >MyBnb (NDA Project)</CardTitle>
             <CardText>
               Booking management system like Airbnb with Airbnb full function. Tech Stack : Ruby on Rails, Twilio API, Stripe API, Omniauth.
             </CardText>
